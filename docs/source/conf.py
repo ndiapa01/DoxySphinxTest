@@ -48,7 +48,7 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 breathe_projects = { }
 
 if read_the_docs_build:
-    input_dir = '../source' # this is actually doxygen's inputs (source codes cpp files to link)
+    input_dir = '' # this is actually doxygen's inputs (source codes cpp files to link)
     output_dir = '../xml'  # this is doxygen's output xml folder or breath's input folder
     configureDoxyfile(input_dir, output_dir)
     subprocess.call('doxygen', shell=True)
@@ -79,7 +79,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
