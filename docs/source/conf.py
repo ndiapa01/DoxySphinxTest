@@ -48,7 +48,7 @@ read_the_docs_build = os.environ.get('READTHEDOCS', None) == 'True'
 breathe_projects = { }
 
 if read_the_docs_build:
-    input_dir = '' # this is actually doxygen's inputs (source codes cpp files to link)
+    input_dir = '' # this is actually doxygen's inputs (we do not set it here)
     output_dir = '../xml'  # this is doxygen's output xml folder or breath's input folder
     configureDoxyfile(input_dir, output_dir)
     subprocess.call('doxygen', shell=True)
