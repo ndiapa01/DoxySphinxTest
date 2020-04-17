@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+C:/Users/ndiapa01/Desktop/documentation_generation/docs/build/CMakeFiles/Sphinx.dir
+C:/Users/ndiapa01/Desktop/documentation_generation/docs/build/CMakeFiles/edit_cache.dir
+C:/Users/ndiapa01/Desktop/documentation_generation/docs/build/CMakeFiles/rebuild_cache.dir
+=======
+C:/Users/ndiapa01/Desktop/documentation_generation/include/build/CMakeFiles/Sphinx.dir
+C:/Users/ndiapa01/Desktop/documentation_generation/include/build/CMakeFiles/edit_cache.dir
+C:/Users/ndiapa01/Desktop/documentation_generation/include/build/CMakeFiles/rebuild_cache.dir
+>>>>>>> 35757b69bd69e2d85f653abb81c8e1ed0409f0ca

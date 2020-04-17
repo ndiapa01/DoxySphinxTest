@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="_cmake_lists_8txt" kind="file" language="C++">
+    <compoundname>CmakeLists.txt</compoundname>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="_cmake_lists_8txt_1a2b33c739062f80e4ec3014ee451b3b8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>cmake_minimum_required</definition>
+        <argsstring>(VERSION 3.17) project(&quot;DoxySphinx&quot;) set(SPHINX_SOURCE $</argsstring>
+        <name>cmake_minimum_required</name>
+        <param>
+          <type>VERSION 3.</type>
+          <declname>17</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="CmakeLists.txt" line="1" column="1" bodyfile="CmakeLists.txt" bodystart="1" bodyend="7"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">cmake_minimum_required(VERSION<sp/>3.17)</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">project(</highlight><highlight class="stringliteral">&quot;DoxySphinx&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#<sp/>find_package(Sphinx<sp/>REQUIRED)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">set(SPHINX_SOURCE<sp/>${CMAKE_CURRENT_SOURCE_DIR}/xml)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal">add_custom_target(Sphinx<sp/>ALL</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>COMMAND<sp/>make<sp/>html</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>#<sp/>Tell<sp/>Breathe<sp/>where<sp/>to<sp/>find<sp/>the<sp/>Doxygen<sp/>output</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>-Dbreathe_projects.include=${DOXYGEN_OUTPUT_DIR}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>${SPHINX_SOURCE}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>WORKING_DIRECTORY<sp/>${CMAKE_CURRENT_SOURCE_DIR}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>COMMENT<sp/></highlight><highlight class="stringliteral">&quot;Generating<sp/>documentation<sp/>with<sp/>Sphinx&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="CmakeLists.txt"/>
+  </compounddef>
+</doxygen>
